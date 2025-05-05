@@ -4,6 +4,12 @@ RefPages:
  - howto_create_a_dev_container   
 --- 
 
+<small>
+<br><br>
+_Copyright (c) 2025 Nico Jan Eelhart_
+_This source code is licensed under the MIT License found in the  'LICENSE.md' file in the root directory of this source tree._
+</small>
+<br><br><br>
 
 # 1. Create the WSL Backend to Support X11
 

@@ -12,23 +12,19 @@ This chapter explains how to set up a WSL backend environment in case you want t
 Another possible use case is when Docker containers inside the WSL environment need to display graphical output on the Windows host. This setup ensures that the Docker output is correctly relayed using the `$DISPLAY` variable. (While we don’t know why you'd need this setup specifically, we include it here to show what is possible!)
   
 
-> 📍 Docker using Windows{: style="color:purple;font-size:13px; "}
-> <small>A Docker container running on your Windows host can also use WSL and provide graphical output via the X11 protocol. In this case, graphical output is forwarded from the container to the Windows host using XLaunch.
+>📍**Docker and WSL**{: style="color:red;font-size:13px; "} <br>
+> <small>A Docker container running on your Windows host can also use WSL and provide graphical output via the X11 protocol. In this case, graphical output is forwarded from the container to the Windows host using XLaunch. <br> <br>
+>However, you do not need to manually install and configure a WSL environment yourself, as I previously believed and documented in my AFX stacks. Instead Docker Desktop creates an implicit WSL environment for you (usually named docker-desktop). <br><br>
+>To make the WSL environment work with your container:  </small>
+> - <small>Ensure Docker Desktop is configured to use the **WSL 2 engine** </small>  <br>
+> - <small>Inside your Docker container, **set the $DISPLAY** environment variable correctly to point to your Windows host IP (e.g. **export DISPLAY=\<host-ip\>:0**) </small> 
 >
->However, you do not need to manually install and configure a WSL environment yourself, as I previously believed and documented in my AFX stacks. Instead Docker Desktop creates an implicit WSL environment for you (usually named docker-desktop).
->
->To make the WSL environment work with your container:
->
-> - Ensure Docker Desktop is configured to use the WSL 2 engine
-> - Inside your Docker container, set the $DISPLAY environment variable correctly to point to your Windows host IP (e.g., export DISPLAY=<host-ip>:0)    
-> &nbsp; <small> 
->
----
+> &nbsp;
 
-## 2.1 The Basic Container Setup
 
-Before running the Docker Compose file for the basic service of the stack, ensure the required components are installed and configured. These items are explained in the following sections:
+## 2.1 The WSL Container installation
 
+This is the the overview of required actions to be performed to enable X11 on a WSL environment
 ### Overview
 
 * **Download the WSL version of Ubuntu**: Get the manual installation files.
@@ -57,21 +53,24 @@ For example, if you download `Ubuntu2204-221101.AppxBundle`, follow these steps:
 
 ### 2.1.2 Install the Ubuntu WSL Version
 
-We'll place the base container files inside the `./Base-Container/Afx-Base-Service/wsl2distro` directory.
+Place the WSL files in centralized location, i.e. `./wsl/wsl-x11/` directory.
 
-```bash
-cd .\Base-Container\Afx-Base-Service
-wsl --import Ubuntu-docker-App-X11 ./wsl2-distro install.tar.gz
-```
+<pre class="nje-cmd-multi-line">
+cd .\wsl\wsl-x11
 
-This creates the `Ubuntu-docker-App-X11` WSL distro in `./wsl2-distro`.
+wsl --import image-wsl-x11 ./wsl/wsl-x11 install.tar.gz
+</pre>
 
-Useful WSL commands:
+This creates the file:  `image-wsl-x11
+` WSL distro in `./wsl/wsl-x11
+`.
 
-```bash
+Other useful WSL commands:
+
+<pre class="nje-cmd-multi-line">
 wsl --list --verbose              # List all distributions with status
-wsl --unregister <YourDistro>     # Remove a distribution
-```
+wsl --unregister YourDistro       # Remove a distribution
+</pre>
 
 ---
 
@@ -79,17 +78,17 @@ wsl --unregister <YourDistro>     # Remove a distribution
 
 Start and manage your WSL2 Ubuntu distribution:
 
-```bash
-wsl -d Ubuntu-docker-App-X11              # Open WSL terminal
+<pre class="nje-cmd-multi-line">
+wsl -d image-wsl-x11                      # Opens the WSL terminal
 wsl --list --verbose                      # Check if it's running
-wsl --terminate Ubuntu-docker-App-X11     # Stop it
-wsl -d Ubuntu-docker-App-X11 -- ls /home  # Run command directly
-wsl --set-default Ubuntu-docker-App-X11   # Set as default
-```
+wsl --terminate image-wsl-x11             # Stop it
+wsl -d image-wsl-x11 -- ls /home          # Run the ls command directly
+wsl --set-default image-wsl-x11           # Set as default
+</pre>
 
-Inside WSL:
+Inside the WSL, execute these command (one time):
 
-```bash
+<pre class="nje-cmd-multi-line">
 sudo apt update && sudo apt upgrade -y
 
 # Set DISPLAY environment variable
@@ -107,7 +106,7 @@ echo 'unset XDG_SESSION_TYPE' >> ~/.bashrc
 
 source ~/.bashrc
 exit
-```
+</pre>
 
 ---
 
@@ -127,19 +126,20 @@ exit
 ### 2.1.5 Test
 
 **Test 1: Basic Graphics Check**
-
-```bash
+- Open the container (`wsl -d image-wsl-x11`)
+- Run these commands
+<pre class="nje-cmd-multi-line">
 sudo apt install x11-apps -y
 xeyes
-```
+</pre>
 
 You should see two eyes following your mouse if XLaunch is running.
 
 **Test 2: Check if X11 is used**
-
-```bash
+- Run this command in the container
+<pre class="nje-cmd-multi-line">
 echo $DISPLAY
-```
+</pre>
 
 * If it shows `:0`, WSLg is likely used
 * If it shows something like `172.27.112.1:0`, X11 via XLaunch is working

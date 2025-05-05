@@ -1,3 +1,10 @@
+---
+layout: default_c
+RefPages:
+ - howto_create_a_dev_container   
+--- 
+
+
 # 1. Create the WSL Backend to Support X11
 
 This chapter explains how to set up a WSL backend environment in case you want to run graphical programs from WSL using the X11 protocol instead of the default WSLg protocol (which is often slower). This enables graphical output from your WSL container to be displayed on the Windows host via X11.

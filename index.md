@@ -15,12 +15,13 @@ The default graphical output of WSL is known to be slow. The following instructi
 This section provides an overview of the different **WSL Template Stacks** and their documentation. These stacks are designed for developers and include detailed instructions for use with Visual Studio Code. Select one of the options below to view the related project page.
 
 - [Native Win32 C++ development](https://nicojane.github.io/WSL-Development-Stack-Native-Win32-CPP/)
+- [C++ GLFW Template project *Todo*](todo) <br>
+This stack is intended to use (and recommends) the WSL with Desktop distribution described below
 
 
+## WSL OS With Desktop GUI 
+The following repository contains instructions for setting up a Debian-based WSL distribution with a desktop environment, using X11 forwarding to the host:<br>
+➡️[WSL with Desktop](https://github.com/NicoJanE/WSL-OS-With-GUI-Desktop)
 
-## Requirements 
-To work with these WSL distributions, you should:
-- WSL 2.0 or higher 
-- Basic knowledge of WSL Desktop.xx
 
  

@@ -16,12 +16,14 @@ This section provides an overview of the different **WSL Template Stacks** and t
 
 - [Native Win32 C++ development](https://nicojane.github.io/WSL-Development-Stack-Native-Win32-CPP/)
 - [C++ GLFW Template project *Todo*](todo) <br>
-This stack is intended to use (and recommends) the WSL with Desktop distribution described below
+<small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
+<small> - This stack is intended for use with (recommends) the **WSL with Desktop GUI** distribution described below</small> <br>
+<small> - This template project, enables you to create a window, handle input and events and define a custom GUI controls  </small> <br>
 
 
 ## WSL OS With Desktop GUI 
 The following repository contains instructions for setting up a Debian-based WSL distribution with a desktop environment, using X11 forwarding to the host:<br>
-➡️[WSL with Desktop](https://github.com/NicoJanE/WSL-OS-With-GUI-Desktop)
+➡️[WSL with Desktop GUI](https://github.com/NicoJanE/WSL-OS-With-GUI-Desktop)
 
 
  

@@ -22,7 +22,7 @@ Select one of the options below to view the related project page.
 <small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
 <small> - Windows Native API development through a WSL container, using a template project </small> <br>
 <span class="nje-ident" style="--nje-number-of-spaces: 4px;"></span> 
-➡️ [C++ GLFW-Skia Template project (Linux & Windows)(WIP)](wip) <br>
+➡️ [C++ GLFW-Skia Template project (Linux & Windows)](https://nicojane.github.io/WSL-Development-Stack-GLFW-Skia-CPP-Template/)  
 <small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
 <small> - Enables you to create windows, handle input and events (GLFW), and defines custom GUI controls (Skia) </small> <br>
 

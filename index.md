@@ -8,22 +8,32 @@ RefPages:
 Welcome to the main site of the **WSL Template Stack (WSL-TS)**.
 
 ## Using X11 instead of WSLg (graphical output)
-The default graphical output of WSL is known to be slow. The following instruction display how you can use the faster X11 method instead, refer to [this document](https://nicojane.github.io/WSL-Template-Stacks-Home/howto_wsl_using_x11)
+The default graphical output of WSL is known to be slow. The following instructions show you can use the faster X11 method instead, Refer to the linked document for [details](https://nicojane.github.io/WSL-Template-Stacks-Home/howto_wsl_using_x11)
 
 
 ## Stacks 
-This section provides an overview of the different **WSL Template Stacks** and their documentation. These stacks are designed for developers and include detailed instructions for use with Visual Studio Code. Select one of the options below to view the related project page.
 
-- [Native Win32 C++ development](https://nicojane.github.io/WSL-Development-Stack-Native-Win32-CPP/)
-- [C++ GLFW Template project *Todo*](todo) <br>
-<small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
-<small> - This stack is intended for use with (recommends) the **WSL with Desktop GUI** distribution described below</small> <br>
-<small> - This template project, enables you to create a window, handle input and events and define a custom GUI controls  </small> <br>
+This section provides an overview of the different **WSL Template development stacks** and their documentation. These stacks are designed for developers and include template projects with instructions for use on both **Windows and Linux**. Most stacks support Visual Studio Code, and some also support Visual Studio 2022 (all editions).
+Select one of the options below to view the related project page.
 
 
-## WSL OS With Desktop GUI 
-The following repository contains instructions for setting up a Debian-based WSL distribution with a desktop environment, using X11 forwarding to the host:<br>
-➡️[WSL with Desktop GUI](https://github.com/NicoJanE/WSL-OS-With-GUI-Desktop)
+<span class="nje-ident" style="--nje-number-of-spaces: 4px;"></span> 
+➡️ [Native Win32 C++ development (Windows)](https://nicojane.github.io/WSL-Development-Stack-Native-Win32-CPP/)  
+<small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
+<small> - Windows Native API development through a WSL container, using a template project </small> <br>
+<span class="nje-ident" style="--nje-number-of-spaces: 4px;"></span> 
+➡️ [C++ GLFW-Skia Template project (Linux & Windows)(WIP)](wip) <br>
+<small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
+<small> - Enables you to create windows, handle input and events (GLFW), and defines custom GUI controls (Skia) </small> <br>
+
+
+## WSL OS Related
+The following repository contains instructions for setting up specific WSL OS distributions. 
+<br><br>
+<span class="nje-ident" style="--nje-number-of-spaces: 4px;"></span> 
+➡️ [WSL with Full Desktop GUI](https://github.com/NicoJanE/WSL-OS-With-GUI-Desktop)  
+<small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
+<small> - WSL with **Mate** full Desktop(Default). Uses X11 Forward to the host (Note: WSLg does not support full desktop) </small> <br>
 
 
  

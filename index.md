@@ -29,7 +29,8 @@ WSL Template Stacks are containerized development environments that combine:
 ## 1.3 Who & Why
 
 <details>
-  <summary style="font-size: 1.17em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> Target Audience</summary>
+  <summary style="font-size: 1.17em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> &#9654; Target Audience
+  </summary>
 
 - **Windows developers** wanting to use Linux development tools
 - **Teams** requiring consistent development environments
@@ -40,9 +41,8 @@ WSL Template Stacks are containerized development environments that combine:
 </details>
 
 <details>
-  <summary style="font-size: 1.17em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> Key benefits</summary>
-
-<br>
+  <summary style="font-size: 1.17em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> &#9654; Key benefits
+  </summary>
 
 - **Rapid Development Setup**
     - Execute a single setup script to create and configure your development environment
@@ -70,7 +70,7 @@ WSL Template Stacks are containerized development environments that combine:
 
 </details>
 
-<br>
+<hr>
 
 # 2 Available Stacks
 

@@ -5,13 +5,14 @@ RefPages:
 --- 
  
 # Welcome
+
 Welcome to the main site of the **WSL Template Stack (WSL-TS)**.
 
 ## Using X11 instead of WSLg (graphical output)
+
 The default graphical output of WSL is known to be slow. The following instructions show you can use the faster X11 method instead, Refer to the linked document for [details](https://nicojane.github.io/WSL-Template-Stacks-Home/howto_wsl_using_x11)
 
-
-## Stacks 
+## Stacks
 
 This section provides an overview of the different **WSL Template development stacks** and their documentation. These stacks are designed for developers and include template projects with instructions for use on both **Windows and Linux**. Most stacks support Visual Studio Code, and some also support Visual Studio 2022 (all editions).
 Select one of the options below to view the related project page.
@@ -25,6 +26,10 @@ Select one of the options below to view the related project page.
 ➡️ [C++ GLFW-Skia Template project (Linux & Windows)](https://nicojane.github.io/WSL-Development-Stack-GLFW-Skia-CPP-Template/)  
 <small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
 <small> - Enables you to create windows, handle input and events (GLFW), and defines custom GUI controls (Skia) </small> <br>
+<span class="nje-ident" style="--nje-number-of-spaces: 4px;"></span> 
+➡️ [Python Flask & FAst Api (Linux & Windows)](https://github.com/NicoJanE/PY-Flask-FastApi-Template-WSL-Stack.git/)  
+<small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
+<small> - Create Python Flask web applications in combination with Fast-API (Todo) </small> <br>
 
 
 ## WSL OS Related

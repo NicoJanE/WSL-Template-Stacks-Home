@@ -26,7 +26,7 @@ Another possible use case is when Docker containers inside the WSL environment n
 > - <small>Ensure Docker Desktop is configured to use the **WSL 2 engine** </small>  <br>
 > - <small>Inside your Docker container, **set the $DISPLAY** environment variable correctly to point to your Windows host IP (e.g. **export DISPLAY=\<host-ip\>:0**) </small> 
 >
-> This document continues to describes the X11 setup, which **allows** displaying complete Linux desktop environments (GNOME, KDE, etc.) within Windows, **unlike** WSLg which only shows individual applications.
+>  <small>This document continues to describes the X11 setup, which **allows** displaying complete Linux desktop environments (GNOME, KDE, etc.) within Windows, **unlike** WSLg which only shows individual applications.</small>
 > &nbsp;
 
 ## 2.1 The WSL Container installation

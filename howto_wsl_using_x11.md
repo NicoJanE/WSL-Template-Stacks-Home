@@ -13,30 +13,31 @@ _This source code is licensed under the MIT License found in the  'LICENSE.md' f
 
 # 1. Create the WSL Backend to Support X11
 
-This chapter explains how to set up a WSL backend environment in case you want to run graphical programs from WSL using the X11 protocol instead of the default WSLg protocol (which is often slower). This enables graphical output from your WSL container to be displayed on the Windows host via X11.
+This chapter explains how to set up a WSL backend environment in case you want to run graphical programs from WSL using the X11 protocol instead of the default WSLg protocol (which is limited). This enables graphical output from your WSL container to be displayed on the Windows host via X11.
 
 Another possible use case is when Docker containers inside the WSL environment need to display graphical output on the Windows host. This setup ensures that the Docker output is correctly relayed using the `$DISPLAY` variable. (While we don’t know why you'd need this setup specifically, we include it here to show what is possible!)
   
 
->📍**Docker and WSL**{: style="color:red;font-size:13px; "} <br>
-> <small>A Docker container running on your Windows host can also use WSL and provide graphical output via the X11 protocol. In this case, graphical output is forwarded from the container to the Windows host using XLaunch. <br> <br>
->However, you do not need to manually install and configure a WSL environment yourself, as I previously believed and documented in my AFX stacks. Instead Docker Desktop creates an implicit WSL environment for you (usually named docker-desktop). <br><br>
+>📍**Correction: Docker and WSL**{: style="color:red;font-size:13px; "} <br>
+> <small>A Docker container running on your Windows host can also use WSL and provide graphical output. In this case, graphical output is forwarded from the container to the Windows host using **WSLg**. <br> <br>
+>However, you do not need to manually install and configure a WSL environment yourself, as I previously believed and documented in my Stacks. Instead Docker Desktop creates an implicit WSL environment for you (usually named docker-desktop) that uses the WSLg engine. <br><br>
 >To make the WSL environment work with your container:  </small>
+
 > - <small>Ensure Docker Desktop is configured to use the **WSL 2 engine** </small>  <br>
 > - <small>Inside your Docker container, **set the $DISPLAY** environment variable correctly to point to your Windows host IP (e.g. **export DISPLAY=\<host-ip\>:0**) </small> 
 >
+> This document continues to describes the X11 setup, which **allows** displaying complete Linux desktop environments (GNOME, KDE, etc.) within Windows, **unlike** WSLg which only shows individual applications.
 > &nbsp;
-
 
 ## 2.1 The WSL Container installation
 
 This is the the overview of required actions to be performed to enable X11 on a WSL environment
 ### Overview
 
-* **Download the WSL version of Ubuntu**: Get the manual installation files.
-* **Install WSL2**: Create a dedicated WSL2 environment as backend for the Docker container.
-* **Configure the WSL Ubuntu Distribution**: Ensure proper configuration.
-* **Install and Configure an X-Server**: Use VcXsrv on the Windows host.
+- **Download the WSL version of Ubuntu**: Get the manual installation files.
+- **Install WSL2**: Create a dedicated WSL2 environment as backend for the Docker container.
+- **Configure the WSL Ubuntu Distribution**: Ensure proper configuration.
+- **Install and Configure an X-Server**: Use VcXsrv on the Windows host.
 
 ---
 

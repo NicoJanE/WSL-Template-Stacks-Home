@@ -1,7 +1,7 @@
 # A change in this file, NEEDS a rebuild!
 #
 
-title: <font size="5">   <span style="color:#FFD700" >W</span> <span style="color:#FFA500" >S</span> <span style="color:#FF7F50" >L</span> Template Stacks </font>
+title: <font size="5">   <span style="color:#FFD700" >W</span> <span style="color:#FFA500" > S</span> <span style="color:#FF7F50" >L</span> Template Stacks </font>
 description: <b><i><font size="3">A site for WSL  development projects</span></font></i></b>
 show_downloads: false
 google_analytics:

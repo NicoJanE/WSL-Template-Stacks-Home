@@ -91,7 +91,7 @@ Select one of the options below to view the related project page.
 <small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
 <small> - Enables you to create windows, handle input and events (GLFW), and defines custom GUI controls (Skia) </small> <br>
 <span class="nje-ident" style="--nje-number-of-spaces: 4px;"></span> 
-➡️ [Python Flask & FAst Api (Linux & Windows)](https://github.com/NicoJanE/PY-Flask-FastApi-Template-WSL-Stack.git/)  
+➡️ [Python Flask & FAst Api (Linux & Windows)](https://nicojane.github.io/PY-Flask-FastApi-Template-WSL-Stack/)  
 <small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
 <small> - Create Python Flask web applications in combination with Fast-API (Todo) </small> <br>
 

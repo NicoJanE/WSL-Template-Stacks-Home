@@ -6,7 +6,7 @@ RefPages:
  
 # 1. What
 
-Welcome to the main site of the **WSL Template Stack (WSL-TS)**.  <br>
+***W***{: style="font-size:26px; "}elcome to the **WSL Template Stack(WSL-TS)** site!<br>
 
 > [Direct Link to the Available Stacks](#2-the-available-stacks)
 

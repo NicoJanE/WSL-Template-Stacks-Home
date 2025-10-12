@@ -6,7 +6,10 @@ RefPages:
  
 # 1. What
 
-Welcome to the main site of the **WSL Template Stack (WSL-TS)**.  
+Welcome to the main site of the **WSL Template Stack (WSL-TS)**.  <br>
+
+> [Direct Link to the Available Stacks](#2-the-available-stacks)
+
 
 WSL Template Stacks provide pre-configured development environments for Windows developers who want to leverage the Windows Subsystem for Linux (WSL) for cross-platform development. Each WSL Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
@@ -72,7 +75,7 @@ WSL Template Stacks are containerized development environments that combine:
 
 <hr>
 
-# 2 Available Stacks
+# 2 The available stacks
 
 This section provides an overview of the different **WSL Template development stacks** and their documentation. These stacks are designed for developers and include template projects with instructions for use on both **Windows and Linux**. Most stacks support Visual Studio Code, and some also support Visual Studio 2022 (all editions).
 Select one of the options below to view the related project page.

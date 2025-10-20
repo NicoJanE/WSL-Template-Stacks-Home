@@ -5,7 +5,7 @@ WSL Template Stacks provide pre-configured development environments for Windows 
 | <div align="left" style="width:250px;">📚 <sub>Direct Link</sub> <br><sub> &nbsp; &nbsp; &nbsp; 🔶 [The Available Stack Components ](https://nicojane.github.io/WSL-Template-Stacks-Home//index#2-the-available-stacks)</sub></div> |
 |------------------------|
 
-| <div align="left" style="width:250px;" >📚 <sub>Background information</sub> <br><sub>  &nbsp; &nbsp; &nbsp; 🔶 [WSL Questions & Answers &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ](https://gist.github.com/NicoJanE/34719538ba72e72df4cb451f9001d368)</sub></div> |
+| <div align="left" style="width:250px;" >📚 <sub>Background information</sub> <br><sub>  &nbsp; &nbsp; &nbsp; 🔶 [WSL Questions & Answers](https://gist.github.com/NicoJanE/34719538ba72e72df4cb451f9001d368)</sub></div> |
 |------------------------|
 
 <br>

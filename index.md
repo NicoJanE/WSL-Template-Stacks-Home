@@ -21,6 +21,7 @@ WSL Template Stacks provide pre-configured development environments for Windows 
  <a href="https://gist.github.com/NicoJanE/34719538ba72e72df4cb451f9001d368"> 🔶 WSL Questions & Answers</a>
 </div>
 
+<br>
 
 ## 1.1 What's Included
 

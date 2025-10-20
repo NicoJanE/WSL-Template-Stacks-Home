@@ -5,7 +5,7 @@
 
 :root{
   --nje-font-size: medium
-	--font-style: normal; 	/* normal, bold*/
+  --font-style: normal; 	/* normal, bold*/
 	--line-thickness: 3px;	/* original intent line thickness , that's why 3px is default */
   --nje-ident: 20px;      /* ident x pixels*/
   --nje-vmove: -18px;     /* Move vertical pixels, - is up + down*/
@@ -363,4 +363,67 @@ Or
   transform: translateX(var(--nje-offset)) translateY(var(--nje-vmove2));
 }
 
-  
+
+
+/*
+	CALL:
+		<div class="nje-info-box">
+		📚<strong>Background information</strong><br>
+		<a href="https://gist.github.com/NicoJanE/34719538ba72e72df4cb451f9001d368"> 🔶 WSL Questions & Answers</a>
+		</div>
+*/  
+.nje-info-box {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding-top: 7px;    
+    padding-left: 10px;
+    padding-right: 10px;
+	margin-left:23px;
+    margin-top: 5px;
+    margin-bottom: 5px;          	/* Space after the Box */
+	width: var(--box-width, 25%);  	/* Use custom property: style="--box-width: 40%;" */
+    background-color: #f8f9fa;
+    border-left: 4px solid #0366d6;
+    font-family: sans-serif;
+    font-size: var(--nje-size);
+}
+
+.nje-info-box strong {
+    color: #24292e;
+	font-size: 90%;
+    font-weight: 600;
+}
+
+.nje-info-box a {
+    /*color: #0366d6;*/
+	color: #55a3e2;
+	font-size: 90%;
+    text-decoration: none;
+	margin-left: 15px;  /* Adds 3 spaces of indentation */
+	font-family: sans-serif;	
+}
+
+
+/* Set the extra amount of space after the last item for the box at the bottom  */
+.nje-info-box > *:last-child {
+    margin-bottom: 7px !important; 
+}
+
+
+.nje-info-box a:hover {
+    text-decoration: underline;
+}
+
+/* Optional: Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .nje-info-box {
+/*        background-color: #1c1c1c;*/
+		background-color: #2f2f2f;
+        border-color: #444;
+        color: #e6edf3;
+    }
+    
+    .nje-info-box strong {
+        color: #e6edf3;
+    }
+}

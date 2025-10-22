@@ -4,12 +4,10 @@ RefPages:
  
 --- 
  
-# 1. What
 
-***W***{: style="font-size:26px; "}elcome to the **WSL Template Stack (WSL-TS)!**<br>
+<span style="font-size: 36px; font-weight: 550;">W</span><span style="font-size: 24px; font-weight: 500;">elcome the WSL-TS site</span> <span style="color: #409EFF; font-style: italic; font-size:17px;"> — WSL Template Stack</span>
 
 WSL Template Stacks provide pre-configured development environments for Windows developers who want to leverage the Windows Subsystem for Linux (WSL) for cross-platform development. Each WSL Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
-
 
 <div class="nje-info-box">
 📚 <strong>Direct Links</strong><br>
@@ -23,7 +21,7 @@ WSL Template Stacks provide pre-configured development environments for Windows 
 
 <br>
 
-## 1.1 What's Included
+## What's Included
 
 WSL Template Stacks are containerized development environments that combine:
 
@@ -32,14 +30,14 @@ WSL Template Stacks are containerized development environments that combine:
 - **Ready-to-use template projects** demonstrating best practices and architecture
 - **Integrated development environment** with VS Code as the default editor
 
-## 1.2 Quick Setup Process
+##  Quick Setup Process
 
 1. **Prerequisites**: Ensure WSL 2 is installed and enabled on your Windows system
 2. **Download**: Obtain the appropriate template stack for your technology
 3. **Execute**: Run the provided setup script to create your development environment
 4. **Develop**: Open the generated project in VS Code and start coding
 
-## 1.3 Who & Why
+## Who & Why
 
 <details>
   <summary style="font-size: 1.17em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> &#9654; Target Audience
@@ -85,12 +83,12 @@ WSL Template Stacks are containerized development environments that combine:
 
 <hr>
 
-# 2 The available stacks
+# The available stacks
 
 This section provides an overview of the different **WSL Template development stacks** and their documentation. These stacks are designed for developers and include template projects with instructions for use on both **Windows and Linux**. Most stacks support Visual Studio Code, and some also support Visual Studio 2022 (all editions).
 Select one of the options below to view the related project page.
 
-## 2.1 WSL Development stacks
+## WSL Development stacks
 
 <span class="nje-ident" style="--nje-number-of-spaces: 4px;"></span> 
 ➡️ [Native Win32 C++ development (Windows)](https://nicojane.github.io/WSL-Development-Stack-Native-Win32-CPP/)  
@@ -106,7 +104,7 @@ Select one of the options below to view the related project page.
 <small> - Create Python Flask web applications in combination with Fast-API (Todo) </small> <br>
 
 
-## 2.2 WSL OS Related
+## WSL OS Related
 The following repository contains instructions for setting up specific WSL OS distributions. 
 <br><br>
 <span class="nje-ident" style="--nje-number-of-spaces: 4px;"></span> 
@@ -114,8 +112,7 @@ The following repository contains instructions for setting up specific WSL OS di
 <small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
 <small> - WSL with **Mate** full Desktop(Default). Uses X11 Forward to the host (Note: WSLg does not support full desktop) </small> <br>
 
-
-## 2.3 A note about using X11 instead of WSLg (graphical output)
+##  A note about using X11 instead of WSLg (graphical output)
 
 The default graphical output of WSL is known to be limited. The following instructions show you can use the faster X11 method instead, Refer to the linked document for [details](https://nicojane.github.io/WSL-Template-Stacks-Home/howto_wsl_using_x11)
 

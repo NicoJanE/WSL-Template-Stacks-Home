@@ -3,16 +3,10 @@ layout: default_c
 RefPages:
  
 --- 
- 
-<div class="nje-br1"> </div>
-
-
-
-
 <table class ="no-border"  style="width:100%;">
   <tr>
-    <td style="vertical-align:middle; text-align:left; height:40px;">&nbsp;</td>
-    <td style="text-align:right; vertical-align:bottom; margin-right:4px;">
+    <td style="vertical-align:middle; text-align:left; height:30px;">&nbsp;</td>
+    <td style="text-align:right; vertical-align:bottom;  padding-right:20px;">
       <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/"
          style="background:#0078d7; color:white; padding:3px 10px; border-radius:8px; font-size:0.8em; text-decoration:none; font-weight:bold; display:inline-block;">
         🚀 To DTS Stacks
@@ -23,12 +17,11 @@ RefPages:
     <td style="vertical-align:middle; text-align:left;">
       <span style="font-size: 2.2em; font-weight: 550;">W</span>
       <span style="font-size: 1.5em; font-weight: 500; margin-left: -0.3em;">elcome to the WSL-TS site</span> <br>
-      <span style="color: #409EFF; font-style: italic; font-size:1.0em; position:relative; top:-0.6em; display:inline-block;"> — WSL Template Component Stack</span>
+      <span style="color: #409EFF; font-style: italic; font-size:1.1em; position:relative; top:-0.6em; display:inline-block;"> — WSL Template Component Stack</span>
     </td>
     <td style="text-align:right; vertical-align:middle;">&nbsp;</td>
   </tr>
 </table>
-<div class="nje-br1"> </div>
 
 WSL Template Stacks provide pre-configured development environments for Windows developers who want to leverage the Windows Subsystem for Linux (WSL) for cross-platform development. Each WSL Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 

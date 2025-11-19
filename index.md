@@ -4,23 +4,39 @@ RefPages:
  
 --- 
  
-<br>
-
-<span style="font-size: 36px; font-weight: 550;">W</span><span style="font-size: 24px; font-weight: 500;">elcome the WSL-TS site</span> <span style="color: #409EFF; font-style: italic; font-size:17px;"> — WSL Template Stack</span>
+<table class ="no-border"  style="width:100%;">
+  <tr>
+    <td style="vertical-align:middle; text-align:left; height:40px;">&nbsp;</td>
+    <td style="text-align:right; vertical-align:bottom; margin-right:4px;">
+      <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/"
+         style="background:#0078d7; color:white; padding:3px 10px; border-radius:8px; font-size:0.8em; text-decoration:none; font-weight:bold; display:inline-block;">
+        🚀 To DTS Stacks
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:middle; text-align:left;">
+      <span style="font-size: 2.2em; font-weight: 550;">W</span>
+      <span style="font-size: 1.5em; font-weight: 500; margin-left: -0.3em;">elcome to the WSL-TS site</span>
+      <span style="color: #409EFF; font-style: italic; font-size:1em;"> — WSL Template Stack</span>
+    </td>
+    <td style="text-align:right; vertical-align:middle;">&nbsp;</td>
+  </tr>
+</table>
+<div class="nje-br1"> </div>
 
 WSL Template Stacks provide pre-configured development environments for Windows developers who want to leverage the Windows Subsystem for Linux (WSL) for cross-platform development. Each WSL Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
 <div class="nje-info-box">
-📚 <strong>Direct Links</strong><br>
- <a href="https://nicojane.github.io/WSL-Template-Stacks-Home//index#2-the-available-stacks"> 🔶 The Available Stack Components</a>
+📚 <strong>Direct Links to:</strong><br>
+ <a href="https://nicojane.github.io/WSL-Template-Stacks-Home//index#2-the-available-stacks"> 🔶 The Available WSL Components</a>
 </div>
 
 <div class="nje-info-box">
 📚 <strong>Background information</strong><br>
  <a href="https://gist.github.com/NicoJanE/34719538ba72e72df4cb451f9001d368"> 🔶 WSL Questions & Answers</a>
 </div>
-
-<br>
+<div class="nje-br1"> </div>
 
 ## What's Included
 
@@ -31,7 +47,7 @@ WSL Template Stacks are containerized development environments that combine:
 - **Ready-to-use template projects** demonstrating best practices and architecture
 - **Integrated development environment** with VS Code as the default editor
 
-##  Quick Setup Process
+## Quick Setup Process
 
 1. **Prerequisites**: Ensure WSL 2 is installed and enabled on your Windows system
 2. **Download**: Obtain the appropriate template stack for your technology
@@ -84,12 +100,13 @@ WSL Template Stacks are containerized development environments that combine:
 
 <hr>
 
-# The available stacks
+## Overview of WSL Component Stacks
 
-This section provides an overview of the different **WSL Template development stacks** and their documentation. These stacks are designed for developers and include template projects with instructions for use on both **Windows and Linux**. Most stacks support Visual Studio Code, and some also support Visual Studio 2022 (all editions).
-Select one of the options below to view the related project page.
+This section provides an overview of the different **WSL Template component stacks** and their documentation. Most of these stacks are designed for developers and include template projects with instructions for use on both **Windows and Linux**. Most stacks support Visual Studio Code, and some also support Visual Studio 2022 (all editions).
 
-## WSL Development stacks
+### WSL Development stacks
+
+Development stacks. Select one of the options below to view the related project page.
 
 <span class="nje-ident" style="--nje-number-of-spaces: 4px;"></span> 
 ➡️ [Native Win32 C++ development (Windows)](https://nicojane.github.io/WSL-Development-Stack-Native-Win32-CPP/)  
@@ -104,10 +121,10 @@ Select one of the options below to view the related project page.
 <small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
 <small> - Create Python Flask web applications in combination with Fast-API (Todo) </small> <br>
 
+### WSL OS Related
 
-## WSL OS Related
-The following repository contains instructions for setting up specific WSL OS distributions. 
-<br><br>
+The following repository contains instructions for setting up specific WSL OS distributions.
+
 <span class="nje-ident" style="--nje-number-of-spaces: 4px;"></span> 
 ➡️ [WSL with Full Desktop GUI](https://github.com/NicoJanE/WSL-OS-With-GUI-Desktop)  
 <small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>

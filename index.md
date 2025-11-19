@@ -4,6 +4,11 @@ RefPages:
  
 --- 
  
+<div class="nje-br1"> </div>
+
+
+
+
 <table class ="no-border"  style="width:100%;">
   <tr>
     <td style="vertical-align:middle; text-align:left; height:40px;">&nbsp;</td>
@@ -17,13 +22,14 @@ RefPages:
   <tr>
     <td style="vertical-align:middle; text-align:left;">
       <span style="font-size: 2.2em; font-weight: 550;">W</span>
-      <span style="font-size: 1.5em; font-weight: 500; margin-left: -0.3em;">elcome to the WSL-TS site</span>
-      <span style="color: #409EFF; font-style: italic; font-size:1em;"> — WSL Template Stack</span>
+      <span style="font-size: 1.5em; font-weight: 500; margin-left: -0.3em;">elcome to the WSL-TS site</span> <br>
+      <span style="color: #409EFF; font-style: italic; font-size:0.9em; position:relative; top:-0.6em; display:inline-block;"> — WSL Template Component Stack</span>
     </td>
     <td style="text-align:right; vertical-align:middle;">&nbsp;</td>
   </tr>
 </table>
-<div class="nje-br1"> </div>
+<div class="nje-br2"> </div>
+
 
 WSL Template Stacks provide pre-configured development environments for Windows developers who want to leverage the Windows Subsystem for Linux (WSL) for cross-platform development. Each WSL Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 

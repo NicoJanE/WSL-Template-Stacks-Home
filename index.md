@@ -15,8 +15,8 @@ RefPages:
   </tr>
   <tr>
     <td style="vertical-align:middle; text-align:left;">
-      <span style="font-size: 2.2em; font-weight: 550;">W</span>
-      <span style="font-size: 1.5em; font-weight: 500; margin-left: -0.3em;">elcome to the WSL-TS site</span> <br>
+      <span style="font-size: 3.2em; font-weight: 550;">W</span>
+      <span style="font-size: 2.5em; font-weight: 500; margin-left: -0.2em;">elcome to the WSL-TS site</span> <br>
       <span style="color: #409EFF; font-style: italic; font-size:1.1em; position:relative; top:-0.6em; display:inline-block;"> — WSL Template Component Stack</span>
     </td>
     <td style="text-align:right; vertical-align:middle;">&nbsp;</td>
@@ -27,12 +27,12 @@ WSL Template Stacks provide pre-configured development environments for Windows 
 
 <div class="nje-info-box">
 📚 <strong>Direct Links to:</strong><br>
- <a href="https://nicojane.github.io/WSL-Template-Stacks-Home//index#2-the-available-stacks"> 🔶 The Available WSL Components</a>
+ <span class="nje-indent2"><a href="https://nicojane.github.io/WSL-Template-Stacks-Home//index#2-the-available-stacks"> 🔶 The Available WSL Components</a>
 </div>
 
 <div class="nje-info-box">
 📚 <strong>Background information</strong><br>
- <a href="https://gist.github.com/NicoJanE/34719538ba72e72df4cb451f9001d368"> 🔶 WSL Questions & Answers</a>
+ <span class="nje-indent2"><a href="https://gist.github.com/NicoJanE/34719538ba72e72df4cb451f9001d368"> 🔶 WSL Questions & Answers</a>
 </div>
 <div class="nje-br1"> </div>
 
@@ -98,7 +98,7 @@ WSL Template Stacks are containerized development environments that combine:
 
 <hr>
 
-## Overview of WSL Component Stacks
+# Overview of WSL Component Stacks
 
 This section provides an overview of the different **WSL Template component stacks** and their documentation. Most of these stacks are designed for developers and include template projects with instructions for use on both **Windows and Linux**. Most stacks support Visual Studio Code, and some also support Visual Studio 2022 (all editions).
 

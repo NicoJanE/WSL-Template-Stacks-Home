@@ -36,6 +36,8 @@ WSL Template Stacks provide pre-configured development environments for Windows 
 </div>
 <div class="nje-br1"> </div>
 
+---
+
 ## What's Included
 
 WSL Template Stacks are containerized development environments that combine:
@@ -45,17 +47,32 @@ WSL Template Stacks are containerized development environments that combine:
 - **Ready-to-use template projects** demonstrating best practices and architecture
 - **Integrated development environment** with VS Code as the default editor
 
+---
+
 ## Quick Setup Process
 
 1. **Prerequisites**: Ensure WSL 2 is installed and enabled on your Windows system
-2. **Download**: Obtain the appropriate template stack for your technology
-3. **Execute**: Run the provided setup script to create your development environment
+2. **Clone**: Clone the appropriate WLS repository template stack for your technology
+3. **Setup**: Use the instructions in the ./Howto folder to setup the environment
 4. **Develop**: Open the generated project in VS Code and start coding
 
-## Who & Why
+### Additional setup Information
 
-<details>
-  <summary style="font-size: 1.17em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> &#9654; Target Audience
+<div class="nje-br4"> </div>
+<details class="nje-note-box" style="margin-top:-18px; margin-left:0px;">
+  <summary>General Requirements
+  </summary>
+
+- Have **Docker Desktop** installed and running on your Windows **host**
+- **WSL** images are tested and supported on the following Windows systems:
+  - Supported on Windows 11 ✅
+  - Expect to work on Windows 10 uing WSl V2 ✅
+
+</details>
+<div class="nje-br4"> </div><div class="nje-br2"> </div>
+
+<details class="nje-note-box" style="margin-top:-18px; margin-left:0px;">
+  <summary>Target Audience
   </summary>
 
 - **Windows developers** wanting to use Linux development tools
@@ -65,38 +82,46 @@ WSL Template Stacks are containerized development environments that combine:
 - **Anyone** who values rapid setup and clean, isolated development environments
 
 </details>
+<div class="nje-br4"> </div><div class="nje-br2"> </div>
 
-<details>
-  <summary style="font-size: 1.17em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> &#9654; Key benefits
+<details class="nje-note-box" style="margin-top:-18px;margin-left:0px;">
+  <summary>Key Features
   </summary>
 
+The stacks feature the following <br><br>
+
+<div class="nje-features-box">
+
 - **Rapid Development Setup**
-    - Execute a single setup script to create and configure your development environment
-    - Automatically provision the WSL container with all required tools and dependencies
-    - Launch directly into VS Code with the template project ready for development
-    - **Time to productivity: Minutes, not hours**
+  - Execute a single setup script to create and configure your development environment
+  - Automatically provision the WSL container with all required tools and dependencies
+  - Launch directly into VS Code with the template project ready for development
+  - **Time to productivity: Minutes, not hours**
 
 - **Isolated and Clean Environment**
-    - Each stack contains only the tools and dependencies relevant to its specific technology
-    - Eliminates version conflicts and dependency issues between different projects
-    - Provides a consistent development environment across different machines
-    - **No pollution of your host Windows system**
+  - Each stack contains only the tools and dependencies relevant to its specific technology
+  - Eliminates version conflicts and dependency issues between different projects
+  - Provides a consistent development environment across different machines
+  - **No pollution of your host Windows system**
 
 - **Production-Ready Template Projects**
-    - Start with a fully functional template application that demonstrates best practices
-    - Includes proper project structure, configuration files, and documentation
-    - Template can be immediately built, tested, and extended
-    - **Skip the boilerplate and focus on your business logic**
+  - Start with a fully functional template application that demonstrates best practices
+  - Includes proper project structure, configuration files, and documentation
+  - Template can be immediately built, tested, and extended
+  - **Skip the boilerplate and focus on your business logic**
 
 - **Cross-Platform Development**
-    - Develop applications that run natively on both Linux (WSL) and Windows
-    - Test your applications in both environments without dual-boot or separate machines
-    - Use Linux tools and utilities while maintaining Windows workflow
-    - **One codebase, multiple deployment targets**
+  - Develop applications that run natively on both Linux (WSL) and Windows
+  - Test your applications in both environments without dual-boot or separate machines
+  - Use Linux tools and utilities while maintaining Windows workflow
+  - **One codebase, multiple deployment targets**
 
+</div>
 </details>
-
+<div class="nje-br4"> </div>
 <hr>
+<div class="nje-br2"> </div>
+
 
 # Overview of WSL Component Stacks
 
@@ -128,8 +153,12 @@ The following repository contains instructions for setting up specific WSL OS di
 <small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
 <small> - WSL with **Mate** full Desktop(Default). Uses X11 Forward to the host (Note: WSLg does not support full desktop) </small> <br>
 
-##  A note about using X11 instead of WSLg (graphical output)
+---
+
+### A note about using X11 instead of WSLg (graphical output)
 
 The default graphical output of WSL is known to be limited. The following instructions show you can use the faster X11 method instead, Refer to the linked document for [details](https://nicojane.github.io/WSL-Template-Stacks-Home/howto_wsl_using_x11)
 
- 
+<br>
+<div align="center"> ─── ✦ ───
+</div>

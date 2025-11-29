@@ -16,8 +16,8 @@ RefPages:
   <tr>
     <td style="vertical-align:middle; text-align:left;">
       <span style="font-size: 3.2em; font-weight: 550;">W</span>
-      <span style="font-size: 2.5em; font-weight: 500; margin-left: -0.2em;">elcome to the WSL-TS site</span> <br>
-      <span style="color: #409EFF; font-style: italic; font-size:1.1em; position:relative; top:-0.6em; display:inline-block;"> — WSL Template Component Stack</span>
+      <span style="font-size: 2.5em; font-weight: 500; margin-left: -0.2em;">elcome to the WSL-TS</span> <br>
+      <span style="color: #409EFF; font-style: italic; font-size:1.1em; position:relative; top:-0.6em; display:inline-block;"> — A WSL Template Components Stack</span>
     </td>
     <td style="text-align:right; vertical-align:middle;">&nbsp;</td>
   </tr>

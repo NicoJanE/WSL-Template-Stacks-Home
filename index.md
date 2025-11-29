@@ -27,7 +27,7 @@ WSL Template Stacks provide pre-configured development environments for Windows 
 
 <div class="nje-info-box">
 📚 <strong>Direct Links to:</strong><br>
- <span class="nje-indent2"><a href="https://nicojane.github.io/WSL-Template-Stacks-Home/#overview-of-wsl-component-stacks"> 🔶 The Available WSL Components</a>
+ <span class="nje-indent2"><a href="https://nicojane.github.io/WSL-Template-Stacks-Home/#the-wsl-components"> 🔶 The Available WSL Components</a>
 </div>
 
 <div class="nje-info-box">
@@ -49,7 +49,7 @@ WSL Template Stacks are containerized development environments that combine:
 
 ---
 
-## Quick Setup Process
+## General Quick Setup Process
 
 1. **Prerequisites**: Ensure WSL 2 is installed and enabled on your Windows system
 2. **Clone**: Clone the appropriate WLS repository template stack for your technology
@@ -118,12 +118,86 @@ The stacks feature the following <br><br>
 
 </div>
 </details>
+<div class="nje-br4"> </div><div class="nje-br2"> </div>
+
+
+
+<details class="nje-back-box" style="margin-top:-18px;margin-left:0px;">
+  <summary> WSLg vs X11 Forwarding — Choosing the Right Graphical Output Method in WSL
+  </summary>
+## Introduction
+
+WSL provides two different methods for displaying Linux GUI applications on Windows.  
+Each method has different strengths depending on your needs, especially when working with Linux desktops or modern graphics frameworks.
+ 
+
+<span class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white;margin-left:15px;margin-top:10px; ">
+**Note: Using X11 vs WSLg for graphical output**{: style="color: lightblue;font-size:15px; "}  
+WSL supports two graphical output paths: **WSLg** (the default) and **X11 forwarding** using an external X server.
+Both are valid, but each is suited for different use-cases.  
+&nbsp;<span>
+
+## WSLg (default) — Best for Modern OpenGL and Graphics Development
+
+WSLg provides a built-in Wayland/RDP display server.  
+It supports **hardware-accelerated OpenGL via Mesa**, which enables many modern graphics and development frameworks:
+
+- **OpenGL 3.x / 4.x** (depending on GPU drivers)
+- **GLFW**
+- **Skia (OpenGL backend)**
+- **Other accelerated frameworks**
+
+<div class="nje-br4"> </div> 
+<pre class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white;padding-bottom:2px; "> Use WSLg when:</pre>
+
+- You are developing with OpenGL, GLFW, or Skia 
+- You need access to modern GPU features  
+- You want “plug-and-play” GUI support without configuring an external X server  
+
+This makes WSLg ideal for graphics-heavy development environments.
+
+---
+
+## X11 Forwarding — Best for Full Linux Desktop Environments
+
+You can also run an external X11 server on Windows (e.g., VcXsrv, Xming).  
+This method is:
+
+- **Robust for general GUI applications**  
+- **Compatible with full Linux desktop environments** (MATE, XFCE, LXDE, etc.)
+
+<span class="nje-colored-block" style="--nje-bgcolor:red; --nje-textcolor:white;margin-left:10px; ">
+ However, due to limitations in the GLX protocol and Windows X-servers. OpenGL support is limited (typically ~OpenGL 1.x)
+</span>
+
+<div class="nje-br4"> </div> 
+<pre class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white;padding-bottom:2px; "> Use X11 Forward when:</pre>
+
+- Running a full Linux desktop inside WSL
+- Everyday GUI applications (stable, predictable GUI support)
+- Tools that do not require modern GPU acceleration like OpenGL
+
+---
+
+## Summary
+
+| Feature / Need | WSLg | X11 Forwarding |
+|:----------------|:------|:----------------|
+| Full Linux desktop (MATE/XFCE/etc.) | ⚠️ Not supported | ✔️ Fully supported |
+| Modern OpenGL (3.x / 4.x) | ✔️ Supported (GPU/driver dependent) | ❌ Limited (≈1.x) |
+| GLFW, Skia, OpenGL development | ✔️ Recommended | ❌ Not suitable |
+| General GUI apps | ✔️ Works | ✔️ Works |
+| Stability / simplicity | ✔️ Easy (built-in) | ✔️ Robust (once configured) |
+
+</details>
+
+
+
 <div class="nje-br4"> </div>
 <hr>
 <div class="nje-br2"> </div>
 
-
-# Overview of WSL Component Stacks
+# The WSL Components
 
 This section provides an overview of the different **WSL Template component stacks** and their documentation. Most of these stacks are designed for developers and include template projects with instructions for use on both **Windows and Linux**. Most stacks support Visual Studio Code, and some also support Visual Studio 2022 (all editions).
 
@@ -155,9 +229,13 @@ The following repository contains instructions for setting up specific WSL OS di
 
 ---
 
-### A note about using X11 instead of WSLg (graphical output)
 
-The default graphical output of WSL is known to be limited. The following instructions show you can use the faster X11 method instead, Refer to the linked document for [details](https://nicojane.github.io/WSL-Template-Stacks-Home/howto_wsl_using_x11)
+
+
+
+
+
+
 
 <br>
 <div align="center"> ─── ✦ ───

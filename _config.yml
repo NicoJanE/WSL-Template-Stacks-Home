@@ -16,9 +16,11 @@ repository_name:      # Update this(repository name) if discussions are enabled 
 home_site_name: 
     - DTS
     - WSL
+    - Sponsor
 home_site_url: 
     - https://nicojane.github.io/Docker-Template-Stacks-Home
     - https://nicojane.github.io/WSL-Template-Stacks-Home
+    - https://nicojane.github.io/Docker-Template-Stacks-Home/sponsor
     
 # Indicates if the page: index.md belongs to a root website. if true the Home link on the left will be suppressed  
 index_hide_home: false

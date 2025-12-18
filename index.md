@@ -202,6 +202,13 @@ This method is:
 
 This section provides an overview of the different **WSL Template component stacks** and their documentation. Most of these stacks are designed for developers and include template projects with instructions for use on both **Windows and Linux**. Most stacks support Visual Studio Code, and some also support Visual Studio 2022 (all editions).
 
+<div class="nje-block-now-header">
+Current under Development (Improvements in template project):
+</div>
+<span class="nje-block-now">
+    <a href="https://github.com/NicoJanE/WSL-Development-Stack-GLFW-Skia-CPP-Template"><b>GLFW + Skia Template C/C++ project</b></a><span class="desc"> ➜ WSL Environment with C++ graphics template</span>
+</span>
+
 ### WSL Development stacks
 
 Development stacks. Select one of the options below to view the related project page.

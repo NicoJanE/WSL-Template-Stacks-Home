@@ -71,9 +71,6 @@ WSL Template Stacks are containerized development environments that combine:
 
 </details>
 
-
-## The WSL Stacks Components
-
 Please click on the link below for the WSL Developer Template Stacks and the related projects
 
 <!-- 

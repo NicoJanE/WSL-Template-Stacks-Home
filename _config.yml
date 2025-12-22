@@ -1,10 +1,14 @@
 # A change in this file, NEEDS a rebuild!
-#
+# - In Docker: rm -rf _site, stop container and start container it again
 
-title: <font size="5">   <span style="color:#FFD700" >W</span> <span style="color:#FFA500" > S</span> <span style="color:#FF7F50" >L</span> Template Stacks </font>
-description: <b><i><font size="3">A site for WSL  development projects</span></font></i></b>
+#title: <font size="5">   <span style="color:#FFD700" >W</span> <span style="color:#FFA500" > S</span> <span style="color:#FF7F50" >L</span> Template Stacks </font>
+#description: <b><i><font size="3">A site for WSL  development projects</span></font></i></b>
+title: "<font size=\"6\"> Windows TS:  Reproducible Dev Env </font>"
+description: <b><i>  WSL <span style="color:#FFA500" >T</span>emplate <span style="color:#FF7F50" >S</span>tacks </font></i></b>
+
+
 show_downloads: false
-google_analytics:
+# google_site_verification: TODO
 theme: jekyll-theme-architect
 
 # Used for discussion link

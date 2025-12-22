@@ -1,4 +1,6 @@
-<span style="font-size: 36px; font-weight: 550;">W</span><span style="font-size: 24px; font-weight: 500;">elcome the WSL-TS site</span> <span style="color: #409EFF; font-style: italic; font-size:17px;"> — WSL Template Stack</span>
+<span style="font-size: 32px; font-weight: 500;">W</span><span style="font-size: 20px; font-weight: 500;">elcome to the Windows Template Stacks</span><span style="color: #409EFF; font-style: italic; font-size:11px; margin-left:10px;padding-top:-31px;">   — A Windows WSL Template  Stack Collection</span>
+
+## Introduction
 
 WSL Template Stacks provide pre-configured development environments for Windows developers who want to leverage the Windows Subsystem for Linux (WSL) for cross-platform development. Each WSL Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
@@ -7,10 +9,9 @@ WSL Template Stacks provide pre-configured development environments for Windows 
 
 | <div align="left" style="width:250px;" >📚 <sub>Background information</sub> <br><sub>  &nbsp; &nbsp; &nbsp; 🔶 [WSL Questions & Answers](https://gist.github.com/NicoJanE/34719538ba72e72df4cb451f9001d368)</sub></div> |
 |------------------------|
-
 <br>
 
-## What's Included
+### Design principles
 
 WSL Template Stacks are containerized development environments that combine:
 
@@ -19,14 +20,14 @@ WSL Template Stacks are containerized development environments that combine:
 - **Ready-to-use template projects** demonstrating best practices and architecture
 - **Integrated development environment** with VS Code as the default editor
 
-## Quick Setup Process
+### General Quick Setup Process
 
 1. **Prerequisites**: Ensure WSL 2 is installed and enabled on your Windows system
 2. **Download**: Obtain the appropriate template stack for your technology
 3. **Execute**: Run the provided setup script to create your development environment
 4. **Develop**: Open the generated project in VS Code and start coding
 
-## Who & Why
+### Who & Why
 
 <details>
   <summary style="font-size: 1.17em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> Target Audience</summary>
@@ -71,7 +72,7 @@ WSL Template Stacks are containerized development environments that combine:
 </details>
 
 
-## WSL-Template-Stacks projects
+## The WSL Stacks Components
 
 Please click on the link below for the WSL Developer Template Stacks and the related projects
 

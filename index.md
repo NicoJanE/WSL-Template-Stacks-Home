@@ -16,13 +16,15 @@ TableCont:
   </tr>
   <tr>
     <td style="vertical-align:middle; text-align:left;">
-      <span style="font-size: 3.2em; font-weight: 550;">W</span>
-      <span style="font-size: 2.5em; font-weight: 500; margin-left: -0.2em;">elcome to the WSL-TS</span> <br>
-      <span style="color: #409EFF; font-style: italic; font-size:1.1em; position:relative; top:-0.6em; display:inline-block;"> — A WSL Template Components Stack</span>
+      <span style="font-size: 2.8em; font-weight: 500;">W</span>
+      <span style="font-size: 1.6em; font-weight: 500; margin-left: -0.2em;">elcome to the WSL  Template Stacks</span> <br>
+      <span style="color: #409EFF; font-style: italic; font-size:.2.5em; position:relative; top:-0.6em; display:inline-block;"> — A Windows WSL Template  Stack Collection</span>
     </td>
     <td style="text-align:right; vertical-align:middle;">&nbsp;</td>
   </tr>
 </table>
+
+## Introduction
 
 WSL Template Stacks provide pre-configured development environments for Windows developers who want to leverage the Windows Subsystem for Linux (WSL) for cross-platform development. Each WSL Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
@@ -37,9 +39,7 @@ WSL Template Stacks provide pre-configured development environments for Windows 
 </div>
 <div class="nje-br1"> </div>
 
----
-
-## What's Included
+### Design principles
 
 WSL Template Stacks are containerized development environments that combine:
 
@@ -47,15 +47,15 @@ WSL Template Stacks are containerized development environments that combine:
 - **Complete development toolset** including compilers, package managers, and utilities
 - **Ready-to-use template projects** demonstrating best practices and architecture
 - **Integrated development environment** with VS Code as the default editor
+<div class="nje-br1"> </div>
 
----
-
-## General Quick Setup Process
+### General Quick Setup Process
 
 1. **Prerequisites**: Ensure WSL 2 is installed and enabled on your Windows system
 2. **Clone**: Clone the appropriate WLS repository template stack for your technology
 3. **Setup**: Use the instructions in the ./Howto folder to setup the environment
 4. **Develop**: Open the generated project in VS Code and start coding
+<div class="nje-br1"> </div>
 
 ### Additional setup Information
 
@@ -198,7 +198,7 @@ This method is:
 <hr>
 <div class="nje-br2"> </div>
 
-# The WSL Components
+## The WSL Stack Components
 
 This section provides an overview of the different **WSL Template component stacks** and their documentation. Most of these stacks are designed for developers and include template projects with instructions for use on both **Windows and Linux**. Most stacks support Visual Studio Code, and some also support Visual Studio 2022 (all editions).
 

@@ -30,7 +30,7 @@ WSL Template Stacks provide pre-configured development environments for Windows 
 
 <div class="nje-info-box">
 📚 <strong>Direct Links to:</strong><br>
- <span class="nje-indent2"><a href="https://nicojane.github.io/WSL-Template-Stacks-Home/#the-wsl-components"> 🔶 The Available WSL Components</a>
+ <span class="nje-indent2"><a href="https://nicojane.github.io/WSL-Template-Stacks-Home/#the-wsl-stack--components"> 🔶 The Available WSL Components</a>
 </div>
 
 <div class="nje-info-box">

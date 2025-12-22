@@ -71,8 +71,6 @@ WSL Template Stacks are containerized development environments that combine:
 
 </details>
 
-Please click on the link below for the WSL Developer Template Stacks and the related projects
-
 <!-- 
 <div style="text-align: center;">
 <font size="5">   <span style="color:#FFD700" >W</span> <span style="color:#FFA500" >S</span> <span style="color:#FF7F50" >L</span> Template Stacks </font>

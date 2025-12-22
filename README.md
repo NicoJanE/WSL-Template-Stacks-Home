@@ -4,7 +4,7 @@
 
 WSL Template Stacks provide pre-configured development environments for Windows developers who want to leverage the Windows Subsystem for Linux (WSL) for cross-platform development. Each WSL Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
-| <div align="left" style="width:250px;">📚 <sub>Direct Link</sub> <br><sub> &nbsp; &nbsp; &nbsp; 🔶 [The Available Stack Components ](https://nicojane.github.io/WSL-Template-Stacks-Home//index#the-available-stacks)</sub></div> |
+| <div align="left" style="width:250px;">📚 <sub>Direct Link</sub> <br><sub> &nbsp; &nbsp; &nbsp; 🔶 [The Available Stack Components ](https://nicojane.github.io/WSL-Template-Stacks-Home//index#the-wsl-stack-components)</sub></div> |
 |------------------------|
 
 | <div align="left" style="width:250px;" >📚 <sub>Background information</sub> <br><sub>  &nbsp; &nbsp; &nbsp; 🔶 [WSL Questions & Answers](https://gist.github.com/NicoJanE/34719538ba72e72df4cb451f9001d368)</sub></div> |

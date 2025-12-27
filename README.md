@@ -1,4 +1,6 @@
-<span style="font-size: 32px; font-weight: 500;">W</span><span style="font-size: 20px; font-weight: 500;">elcome to the Windows Template Stacks</span><span style="color: #409EFF; font-style: italic; font-size:11px; margin-left:10px;padding-top:-31px;">   — A Windows WSL Template  Stack Collection</span>
+<h2> 
+  Welcome to the Windows Template Stacks <i><sub><sub> - A Windows WSL Template  Stack Collection</sub></sub></i>
+</h2>
 
 ## Introduction
 
@@ -71,13 +73,18 @@ WSL Template Stacks are containerized development environments that combine:
 
 </details>
 
+### License 
+
+All repositories are MIT licensed and free to use. For optional commercial support, customization, training, or long-term maintenance, see [`COMMERCIAL.md`](COMMERCIAL.md).
+
+
 <!-- 
 <div style="text-align: center;">
 <font size="5">   <span style="color:#FFD700" >W</span> <span style="color:#FFA500" >S</span> <span style="color:#FF7F50" >L</span> Template Stacks </font>
 
 [click here](https://nicojane.github.io/WSL-Template-Stacks-Home/)
 -->
-
+<br>
 <p align="center">
   <a href="https://nicojane.github.io/WSL-Template-Stacks-Home/">
     <img src="assets/WSLfooter.svg" alt="WSL Template Stacks" width="400" />

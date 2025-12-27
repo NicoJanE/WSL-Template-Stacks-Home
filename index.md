@@ -235,15 +235,13 @@ The following repository contains instructions for setting up specific WSL OS di
 <small><span class="nje-ident" style="--nje-number-of-spaces: 22px;"/> </small>
 <small> - WSL with **Mate** full Desktop(Default). Uses X11 Forward to the host (Note: WSLg does not support full desktop) </small> <br>
 
+<div class="nje-br4"> </div>
+
+### License
+
+All repositories are MIT licensed and free to use. For optional commercial support, customization, training, or long-term maintenance, see [`COMMERCIAL.md`](COMMERCIAL.md).
+
 ---
-
-
-
-
-
-
-
-
 
 <br>
 <div align="center"> ─── ✦ ───

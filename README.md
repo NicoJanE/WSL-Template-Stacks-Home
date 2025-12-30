@@ -73,7 +73,7 @@ WSL Template Stacks are containerized development environments that combine:
 
 </details>
 
-### License 
+### License
 
 All repositories are MIT licensed and free to use. For optional commercial support, customization, training, or long-term maintenance, see [`COMMERCIAL.md`](COMMERCIAL.md).
 

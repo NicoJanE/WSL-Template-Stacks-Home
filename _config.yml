@@ -19,7 +19,6 @@ repository_name:      # Update this(repository name) if discussions are enabled 
 url: "https://nicojane.github.io"
 baseurl: "/WSL-Template-Stacks-Home"
 
-
 # includes home links for this page, leave blank in case of no Home links. 
 # An toot site, so currently no other references to other main sites (cause there not available) 
 home_site_name: 
